@@ -4,7 +4,66 @@
 ## 1. Part 1: Data Model
 
 ### 1.1 Overview – Student Attendance Kiosk Data Model
-<!-- Add screenshot here -->
+
+## 1.1 Overview – Student Attendance Kiosk Data Model
+
+The Student Attendance Kiosk application uses four main tables to manage student information, face enrolment, kiosk configuration, and attendance records.
+
+### Data Model Diagram
+
+```mermaid
+erDiagram
+    STUDENT ||--|{ FACE_ENROLMENT : has
+    STUDENT ||--o{ ATTENDANCE : records
+    KIOSK ||--o{ ATTENDANCE : records
+
+    STUDENT {
+        string student_id PK
+        string first_name
+        string last_name
+        string full_name
+        string email
+        reference user
+        string programme
+        choice year_of_study
+        boolean active
+        boolean biometric_consent
+        datetime consent_date
+    }
+
+    FACE_ENROLMENT {
+        reference student FK
+        string descriptor
+        integer sample_number
+        reference enrolled_by
+        boolean active
+    }
+
+    KIOSK {
+        string name
+        string building
+        boolean active
+        datetime last_seen
+    }
+
+    ATTENDANCE {
+        reference student FK
+        date attendance_date
+        datetime check_in_time
+        reference kiosk FK
+        choice method
+        decimal match_distance
+        choice status
+    }
+```
+
+### Table Relationships
+
+- One student can have 1 to 3 face enrolment samples.
+- One student can have multiple attendance records.
+- Each attendance record is associated with one student and one kiosk.
+- The attendance record stores the date, check-in time, method, match distance, and status.
+
 
 ### 1.2 Student Table
 <!-- Add screenshot here -->
