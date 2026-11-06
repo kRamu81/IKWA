@@ -1,4 +1,4 @@
-Here are the errors you hit, with the cause and the fix for each.
+my issues: ????
 
 | # | Error / problem | Cause | Fix |
 |---|---|---|---|
