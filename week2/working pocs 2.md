@@ -52,6 +52,52 @@ StudentFormUtils.prototype = Object.extendsObject(
 
 **5. Business Rules**
 Business Rules run on the server and enforce Student ID, email, and consent validations. They are the final check and cannot be bypassed by imports or APIs, unlike Client Scripts.
+```
+
+(function executeRule(current, previous) {
+
+    var errors = [];
+
+    // Student ID validation
+    var studentId = current.student_id.toString().trim().toUpperCase();
+    current.student_id = studentId;
+
+    if (!/^S\d{3,6}$/.test(studentId)) {
+        errors.push('Student ID must be S followed by 3 to 6 digits.');
+    } else {
+        var duplicate = new GlideRecord('x_ikwa_campus_at_0_student');
+        duplicate.addQuery('student_id', studentId);
+        duplicate.addQuery('sys_id', '!=', current.getUniqueValue());
+        duplicate.setLimit(1);
+        duplicate.query();
+
+        if (duplicate.hasNext()) {
+            errors.push('Student ID already exists.');
+        }
+    }
+
+    // Email validation
+    if (!current.email.nil() &&
+        !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(current.email.toString())) {
+        errors.push('Please enter a valid email address.');
+    }
+
+    // Course details for active students
+    if (current.active == true) {
+        if (current.programme.nil())
+            errors.push('Programme is required for active students.');
+
+        if (current.year_of_study.nil())
+            errors.push('Year of Study is required for active students.');
+    }
+
+    if (errors.length > 0) {
+        gs.addErrorMessage(errors.join(' '));
+        current.setAbortAction(true);
+    }
+
+})(current, previous);
+```
 
 Test Server-side Validation : 
  1. if the studentID is ABC123 like but start with S :
