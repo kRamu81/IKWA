@@ -23,6 +23,32 @@ Client Scripts run in the browser and react to what the user does. They guide th
 
 **4. Script Include (GlideAjax)**
 This checks for duplicate Student IDs. The form asks the server through GlideAjax, and the user is warned immediately if the ID already exists.
+```
+
+var StudentFormUtils = Class.create();
+StudentFormUtils.prototype = Object.extendsObject(
+    global.AbstractAjaxProcessor, {
+
+    idExists: function() {
+        var studentId = this.getParameter('sysparm_student_id');
+        var sysId = this.getParameter('sysparm_sys_id');
+
+        var gr = new GlideRecord('x_ikwa_campus_at_0_student');
+        gr.addQuery('student_id', studentId);
+
+        if (sysId) {
+            gr.addQuery('sys_id', '!=', sysId);
+        }
+
+        gr.setLimit(1);
+        gr.query();
+
+        return gr.hasNext() ? 'true' : 'false';
+    },
+
+    type: 'StudentFormUtils'
+});
+```
 
 **5. Business Rules**
 Business Rules run on the server and enforce Student ID, email, and consent validations. They are the final check and cannot be bypassed by imports or APIs, unlike Client Scripts.
