@@ -6,3 +6,5 @@
 Consent Date	: if both are active then only record the attendance per student in college , otherwise scam  (hide/show)
 Inactive Student	: if the student is passout unable to change the consent should be lock ( read) 
 Course Information : 	if we are taking an attendance they must required the student programme and year right what exactly to mark
+
+<img width="1366" height="279" alt="image" src="https://github.com/user-attachments/assets/f4f7dfb0-95c6-46ea-8081-9fa49017f095" />
