@@ -110,7 +110,7 @@ Test Server-side Validation :
     <img width="1366" height="389" alt="image" src="https://github.com/user-attachments/assets/e4adf96d-a7b7-4258-81b0-1ac4a13f11e2" />
     
  3. Student is Active must fill the mandatory details 
-   <img width="1366" height="543" alt="image" src="https://github.com/user-attachments/assets/c9d22778-a76f-44cb-b350-ec9ce45d7f86" />
+    <img width="1366" height="543" alt="image" src="https://github.com/user-attachments/assets/c9d22778-a76f-44cb-b350-ec9ce45d7f86" />
 
  4. Active student without Year of Study
     <img width="1366" height="416" alt="image" src="https://github.com/user-attachments/assets/8b0a846a-8edb-4964-9888-15b8e9bf7231" />
