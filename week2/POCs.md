@@ -1,3 +1,6 @@
+Date : 15/11/2026
+
+
 **1. Form Layout**
 I organized the Student form fields into four clear sections: Student Details, Contact Information, Course Information, and Face Recognition Consent. This makes the form clean and easy for staff to fill in.
 
