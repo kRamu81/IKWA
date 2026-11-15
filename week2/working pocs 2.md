@@ -18,12 +18,14 @@ Client Scripts run in the browser and react to what the user does. They guide th
 - **Validate Student ID:** if staff enter a wrong Student ID, a message pops up right away.
 - **Consent Message:** when the consent checkbox changes, a message reminds staff what it means.
 
+  <img width="1366" height="258" alt="image" src="https://github.com/user-attachments/assets/830a58a2-18e1-402b-a564-ce88b2af1cc4" />
+
+
 **4. Script Include (GlideAjax)**
 This checks for duplicate Student IDs. The form asks the server through GlideAjax, and the user is warned immediately if the ID already exists.
 
 **5. Business Rules**
 Business Rules run on the server and enforce Student ID, email, and consent validations. They are the final check and cannot be bypassed by imports or APIs, unlike Client Scripts.
-
 
 Test Server-side Validation : 
  1. if the studentID is ABC123 like but start with S :
