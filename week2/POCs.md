@@ -119,3 +119,38 @@ Test Server-side Validation :
     <img width="1366" height="520" alt="image" src="https://github.com/user-attachments/assets/83e8f669-81b7-4dae-85c3-76b24f2557c4" />
 
 
+Date : 16/11/26
+
+
+** 6. Data Policies : **
+** 7. Updating List of student & Attendance **
+   Student list :  x_ikwa_campus_at_0_student
+   <img width="1366" height="215" alt="image" src="https://github.com/user-attachments/assets/d93f1564-8b7d-4784-9cc6-777d12cd4927" />
+
+   Attendance list : x_ikwa_campus_at_0_attendance
+   <img width="1366" height="187" alt="image" src="https://github.com/user-attachments/assets/642b9d6d-26f4-4697-9158-07d1471a7091" />
+   
+** 7.1 Field Styles (Visual Indicators) **
+   <img width="1366" height="322" alt="image" src="https://github.com/user-attachments/assets/b7991776-dd77-413e-9a0a-bf83094cc165" />
+
+** 8 Related Lists **
+   <img width="1361" height="559" alt="image" src="https://github.com/user-attachments/assets/0ea95df8-6347-473a-8ea6-05acddddc68f" />
+
+** 9 Create Different Form Views **
+   Default view : 
+   <img width="1366" height="605" alt="image" src="https://github.com/user-attachments/assets/417683aa-e123-40d6-a3dc-5e905e6a83ff" />
+
+   staff view : 
+   <img width="1366" height="608" alt="image" src="https://github.com/user-attachments/assets/1de25204-9efb-4329-9010-6c2f25ce1080" />
+
+   Admin view :
+   <img width="1366" height="609" alt="image" src="https://github.com/user-attachments/assets/794bc228-a6f1-49d5-840f-3460bf5f8598" />
+
+
+
+   
+
+
+
+
+
