@@ -131,7 +131,8 @@ Date : 16/11/26
    <img width="1366" height="187" alt="image" src="https://github.com/user-attachments/assets/642b9d6d-26f4-4697-9158-07d1471a7091" />
    
 ** 7.1 Field Styles (Visual Indicators) **
-   <img width="1366" height="322" alt="image" src="https://github.com/user-attachments/assets/b7991776-dd77-413e-9a0a-bf83094cc165" />
+   <img width="1366" height="331" alt="image" src="https://github.com/user-attachments/assets/c4942568-cc16-478b-baa5-cdf63cf4b1e2" />
+
 
 ** 8 Related Lists **
    <img width="1361" height="559" alt="image" src="https://github.com/user-attachments/assets/0ea95df8-6347-473a-8ea6-05acddddc68f" />
