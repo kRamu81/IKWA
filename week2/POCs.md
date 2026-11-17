@@ -133,6 +133,12 @@ Date : 16/11/26
 ** 7.1 Field Styles (Visual Indicators) **
    <img width="1366" height="331" alt="image" src="https://github.com/user-attachments/assets/c4942568-cc16-478b-baa5-cdf63cf4b1e2" />
 
+   Attendance list : 
+   <img width="1366" height="240" alt="image" src="https://github.com/user-attachments/assets/bbda0448-04ea-4eb0-a67d-a9b7d26e7e62" />
+
+   Student list :
+   <img width="1366" height="297" alt="image" src="https://github.com/user-attachments/assets/b5a55aac-a91d-40e1-9b92-4d60127f0955" />
+
 
 ** 8 Related Lists **
    <img width="1361" height="559" alt="image" src="https://github.com/user-attachments/assets/0ea95df8-6347-473a-8ea6-05acddddc68f" />
