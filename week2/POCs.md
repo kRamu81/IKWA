@@ -122,28 +122,32 @@ Test Server-side Validation :
 Date : 16/11/26
 
 
-** 6. Data Policies : **
-** 7. Updating List of student & Attendance **
+**6. Data Policies :**
+<img width="1366" height="603" alt="image" src="https://github.com/user-attachments/assets/f3e97fce-2c0c-4cf9-b3c1-849dcbb47f38" />
+<img width="1366" height="622" alt="image" src="https://github.com/user-attachments/assets/fb4f7f1c-386e-4062-ac7b-14311437b95f" />
+
+**7. Updating List of student & Attendance**
    Student list :  x_ikwa_campus_at_0_student
    <img width="1366" height="215" alt="image" src="https://github.com/user-attachments/assets/d93f1564-8b7d-4784-9cc6-777d12cd4927" />
 
    Attendance list : x_ikwa_campus_at_0_attendance
    <img width="1366" height="187" alt="image" src="https://github.com/user-attachments/assets/642b9d6d-26f4-4697-9158-07d1471a7091" />
+
    
-** 7.1 Field Styles (Visual Indicators) **
+  7.1 Field Styles (Visual Indicators) **
    <img width="1366" height="331" alt="image" src="https://github.com/user-attachments/assets/c4942568-cc16-478b-baa5-cdf63cf4b1e2" />
 
-   Attendance list : 
+  7.12 :Attendance list : 
    <img width="1366" height="240" alt="image" src="https://github.com/user-attachments/assets/bbda0448-04ea-4eb0-a67d-a9b7d26e7e62" />
 
-   Student list :
+  7.13Student list :
    <img width="1366" height="297" alt="image" src="https://github.com/user-attachments/assets/b5a55aac-a91d-40e1-9b92-4d60127f0955" />
 
 
-** 8 Related Lists **
+**8 Related Lists**
    <img width="1361" height="559" alt="image" src="https://github.com/user-attachments/assets/0ea95df8-6347-473a-8ea6-05acddddc68f" />
 
-** 9 Create Different Form Views **
+**9 Create Different Form Views**
    Default view : 
    <img width="1366" height="605" alt="image" src="https://github.com/user-attachments/assets/417683aa-e123-40d6-a3dc-5e905e6a83ff" />
 
